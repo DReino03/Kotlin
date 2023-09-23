@@ -1,3 +1,9 @@
+/*
+* AUTHOR: Daniel Reinosa Luque
+* DATE: 2022/09/19
+* TITLE: 1.31 De metre a peu
+*/
+
 import java.util.*
 
 fun main (){

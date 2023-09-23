@@ -11,5 +11,5 @@ fun main () {
     var month = scanner.nextInt()
     var year = scanner.nextInt()
 
-    if ()
+
 }
