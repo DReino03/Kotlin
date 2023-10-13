@@ -1,11 +1,14 @@
+import java.util.Scanner
+
 fun main() {
     do {
+        val scan = Scanner(System.`in`)
         println("Introduce dos números enteros positivos para comprobar si son amigos.")
         print("Primer número: ")
-        val a = readLine()?.toIntOrNull() ?: 0
+        val a = scan.nextInt()
 
         print("Segundo número: ")
-        val b = readLine()?.toIntOrNull() ?: 0
+        val b = scan.nextInt()
 
         if (a > 0 && b > 0) {
             val sonAmigos = { a: Int, b: Int ->
